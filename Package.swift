@@ -23,8 +23,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_SD_Offline_Database",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_SD_Offline_Database-1.0.0-beta+20230515153434.xcframework.zip",
-			checksum: "051a6202cd33be66fd591f3395d413be800334f0f6b3ae8819daf0b01e4115dc"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_SD_Offline_Database-1.0.0-beta+20230515174624.xcframework.zip",
+			checksum: "6cb78cdac545b7ec2e59751404e0257e2a6e56abb5b17ceddfb7085b6d48cae2"
 		)
 	]
 )
