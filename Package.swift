@@ -17,14 +17,14 @@ let package = Package(
 		.target(name: "GXCoreModule_SD_Offline_DatabaseWrapper",
 				dependencies: [
 					"GXCoreModule_SD_Offline_Database",
-					.product(name: "GXCoreBL", package: "GXCoreBL", condition: .when(platforms: [.iOS, .tvOS, .watchOS])),
-					.product(name: "GXDataLayerLocal", package: "GXDataLayerLocal", condition: .when(platforms: [.iOS, .tvOS, .watchOS]))
+					.product(name: "GXCoreBL", package: "GXCoreBL", condition: .when(platforms: [.iOS, .watchOS, .tvOS])),
+					.product(name: "GXDataLayerLocal", package: "GXDataLayerLocal", condition: .when(platforms: [.iOS, .watchOS, .tvOS]))
 				],
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_SD_Offline_Database",
-			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_SD_Offline_Database-1.0.0-beta+20230516174834.xcframework.zip",
-			checksum: "aea995a3b0ab442d8fd1b1a8eec5d8d6b2e915e1275f804e208aeca7cd583919"
+			url: "https://pkgs.genexus.dev/iOS/beta/GXCoreModule_SD_Offline_Database-1.0.0-beta+20230518171417.xcframework.zip",
+			checksum: "42333bf75dc568b71c25a39ce78ddc2b2fafa574a26584b96b1f7d335d5e61a9"
 		)
 	]
 )
