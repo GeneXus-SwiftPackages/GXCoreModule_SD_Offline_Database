@@ -10,8 +10,8 @@ let package = Package(
 			targets: ["GXCoreModule_SD_Offline_DatabaseWrapper"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "1.5.12"),
-		.package(url: "https://github.com/GeneXus-SwiftPackages/GXDataLayerLocal.git", exact: "1.5.12")
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", exact: "1.5.16"),
+		.package(url: "https://github.com/GeneXus-SwiftPackages/GXDataLayerLocal.git", exact: "1.5.16")
 	],
 	targets: [
 		.target(name: "GXCoreModule_SD_Offline_DatabaseWrapper",
@@ -23,8 +23,8 @@ let package = Package(
 				path: "Sources"),
 		.binaryTarget(
 			name: "GXCoreModule_SD_Offline_Database",
-			url: "https://pkgs.genexus.dev/iOS/releases/GXCoreModule_SD_Offline_Database-1.5.12.xcframework.zip",
-			checksum: "b18c9e140242bd70918117fc4a2b4f352bae563eec66225bb82e53342bf126c8"
+			url: "https://pkgs.genexus.dev/iOS/releases/GXCoreModule_SD_Offline_Database-1.5.16.xcframework.zip",
+			checksum: "840dfe148f7b524a61ebf548b916cb30307bae9e5c0137a77dfacd90795e2b30"
 		)
 	]
 )
